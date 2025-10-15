@@ -88,7 +88,7 @@ public class Sistema_Bancario_Criptovalute {
                     }
 
                     cliente.aggiungiConto();
-                    System.out.println("✅ Conto aggiunto al cliente " + cliente.getNome());
+                    System.out.println(" Conto aggiunto al cliente " + cliente.getNome());
                     break;
                 case 3:
                     Banca.visualClient();
@@ -130,12 +130,12 @@ public class Sistema_Bancario_Criptovalute {
 
                     if (sceltaOp == 1) {
                         contoSelezionato.deposita(importo);
-                        System.out.println("✅ Deposito effettuato con successo!");
+                        System.out.println(" Deposito effettuato con successo!");
                     } else if (sceltaOp == 2) {
                         contoSelezionato.preleva(importo);
-                        System.out.println("✅ Prelievo effettuato con successo!");
+                        System.out.println(" Prelievo effettuato con successo!");
                     } else {
-                        System.out.println("❌ Operazione non valida!");
+                        System.out.println(" Operazione non valida!");
                     }
                     break;
                 case 5:
